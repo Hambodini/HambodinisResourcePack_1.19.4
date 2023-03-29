@@ -3,8 +3,12 @@
   "textures": {
     "layer0": "minecraft:item/wooden_sword"
   },
-  "overrides":
-  [
-  {"predicates": { "custom_model_data": 2250001}, "models": "clubz/wooden_club"}
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2250001
+      },
+      "model": "wooden_club:item/wooden_club"
+    }
   ]
 }
